@@ -1,11 +1,12 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:movie_app/Home/Api_Services/api_url.dart';
-import 'package:movie_app/Home/Api_Services/base_api_services.dart';
+
 import 'package:movie_app/Home/Model/movie.dart';
 import 'package:movie_app/Utils/custom_print.dart';
 
 // import 'api_creds.dart';
+import 'api_url.dart';
+import 'base_api_services.dart';
 import 'check_connectivity.dart';
 
 class ApiServices extends BaseApiServices {

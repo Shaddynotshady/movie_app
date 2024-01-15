@@ -1,10 +1,11 @@
 import 'dart:convert';
 
 import 'package:get/get.dart';
-import 'package:movie_app/Home/Api_Services/check_connectivity.dart';
+
 import 'package:movie_app/Utils/custom_print.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../../Api_Services/check_connectivity.dart';
 import '../Model/movie.dart';
 
 class HomeViewModel extends GetxController {

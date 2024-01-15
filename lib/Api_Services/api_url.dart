@@ -1,4 +1,4 @@
-import 'package:movie_app/Home/Api_Services/api_creds.dart';
+import 'api_creds.dart';
 
 class ApiUrls{
   static const String _baseUrl='https://api.themoviedb.org/3';

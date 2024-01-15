@@ -7,10 +7,11 @@ import 'package:movie_app/Home/components/movie_card.dart';
 import 'package:movie_app/Utils/app_config.dart';
 import 'package:movie_app/Utils/sizedBoxPadding.dart';
 
+import '../../Api_Services/api_services.dart';
 import '../../Constant/app_color.dart';
 import '../../Constant/app_textstyles.dart';
 import '../../Utils/custom_print.dart';
-import '../Api_Services/api_services.dart';
+
 import '../Model/movie.dart';
 import '../components/internet_connection_card.dart';
 
